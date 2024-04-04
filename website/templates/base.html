@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{{ title }}</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/style.css') }}"
+    />
+  </head>
+
+  <body class="vsc-initialized">
+    <div id="notfound">
+      <div class="notfound">
+        <div class="notfound-404">
+          <h1>
+            {{ level }}<span
+              ><img
+                src="{{ url_for('static',filename='img/emoji.png') }}"
+                alt="Oops, unable to find the emoji"
+                width="120.4"
+                height="120.4" /></span
+            >{{ code }}
+          </h1>
+        </div>
+        <h2>{{ header_two }}</h2>
+        <p>{{ paragraph }}</p>
+      </div>
+    </div>
+  </body>
+</html>
