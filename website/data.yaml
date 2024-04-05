@@ -1,0 +1,74 @@
+- code: "400"
+  h2: Whoops! Something Went Wrong
+  paragraph: The server couldn't understand your request due to invalid syntax. Please check your request and try again.
+  title: 400 - Malformed Request
+
+- code: "401"
+  h2: Hold On! You Need Permission
+  paragraph: You're not authorized to access this page. Please check your credentials and try again, or contact the site admin for help.
+  title: 401 - Access Denied
+
+- code: "403"
+  h2: No Entry Allowed
+  paragraph: You don't have permission to access this resource. If you think this is an error, please contact the website owner.
+  title: 403 - Keep Out
+
+- code: "404"
+  h2: Oops! Page Not Be Found
+  paragraph: The page you are looking for does not exist, has been removed, or is temporarily unavailable. Please check the URL and try again.
+  title: 404 - Missing in Action
+
+- code: "405"
+  h2: Wrong Method, Try Again
+  paragraph: The request method is not supported for the requested resource. Please check the method and try again.
+  title: 405 - That's Not Allowed
+
+- code: "406"
+  h2: Can't Fulfill Request
+  paragraph: The request cannot be fulfilled using the content characteristics requested. Check your headers and try again.
+  title: 406 - Unacceptable
+
+- code: "407"
+  h2: Proxy Authentication Required
+  paragraph: You must authenticate with the proxy before you can access this resource. Please check your network settings.
+  title: 407 - Proxy Says No
+
+- code: "408"
+  h2: Request Timeout
+  paragraph: The request took too long to complete. Please try again later.
+  title: 408 - Time's Up
+
+- code: "409"
+  h2: Whoops! Conflict Detected
+  paragraph: The request could not be completed due to a conflict with the current state of the resource. Please resolve the conflict and try again.
+  title: 409 - Conflict Alert
+
+- code: "500"
+  h2: Uh-oh! Something Went Wrong
+  paragraph: The server encountered an internal error and was unable to complete your request. Please try again later.
+  title: 500 - Server Meltdown
+
+- code: "501"
+  h2: Feature Not Implemented
+  paragraph: The server does not support the functionality required to fulfill the request. Check for updates or contact support.
+  title: 501 - Not Ready Yet
+
+- code: "502"
+  h2: Bad Gateway Detected
+  paragraph: The server received an invalid response from the upstream server. Please try again later.
+  title: 502 - Misbehaving Gateway
+
+- code: "503"
+  h2: Service Temporarily Unavailable
+  paragraph: The server is currently unable to handle the request due to temporary overloading or maintenance. Please try again later.
+  title: 503 - Service Break
+
+- code: "504"
+  h2: Waiting Too Long?
+  paragraph: The upstream server failed to send a request in the time allowed by the server. Please try again later.
+  title: 504 - Gateway Timeout
+
+- code: "505"
+  h2: 'Old School'
+  paragraph: The server does not support the version of the HTTP protocol used in the request. Please upgrade your protocol and try again.
+  title: 505 - Old School
