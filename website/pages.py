@@ -15,7 +15,8 @@ with open(DATA_FILE, 'r') as f:
 def root(http_code):
     emojis = os.listdir('website/static/img')
     emoji = random.choice(emojis)
-    emoji_path = url_for('static',filename=f'img/{emoji}.png')
+    emoji_path = url_for('static',filename=f'img/{emoji}')
+
     error_page = next((item for item in datas if item['code'] == http_code), None)
     
     if error_page is None:
