@@ -34,11 +34,11 @@ body {
   margin: 0;
   color: #232323;
 }
-.notfound .notfound-404 h1 > span {
+.notfound .notfound-404 h1 > img {
   display: inline-block;
   width: 120px;
   height: 120px;
-  background-image: url(../img/emoji.png);
+  /* background-image: url(../img/emoji.png); */
   background-size: cover;
   -webkit-transform: scale(1.4);
   -ms-transform: scale(1.4);
@@ -80,7 +80,7 @@ body {
   .notfound .notfound-404 h1 {
     font-size: 86px;
   }
-  .notfound .notfound-404 h1 > span {
+  .notfound .notfound-404 h1 > img {
     width: 86px;
     height: 86px;
   }
