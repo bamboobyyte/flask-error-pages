@@ -29,16 +29,16 @@ source venv/bin/activate  # On Windows use `.\venv\Scripts\activate.ps1`
 
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/bamboobyyte/flask-error-pages.git
-cd flask-error-pages
-```
+   ```bash
+   git clone https://github.com/bamboobyyte/flask-error-pages.git
+   cd flask-error-pages
+   ```
 
 2. **Install the required packages:**
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Configuration
 
