@@ -22,7 +22,7 @@ It's recommended to use a virtual environment for Python projects to avoid depen
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use `.\venv\Scripts\activate`
+source venv/bin/activate  # On Windows use `.\venv\Scripts\activate.ps1`
 ```
 
 ### Installation
